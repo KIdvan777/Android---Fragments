@@ -12,20 +12,7 @@
         android:background="@drawable/hero_bg_gradient"
         android:orientation="vertical">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#253748"
-            android:minHeight="?attr/actionBarSize"
-            android:weightSum="1">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.75"
-                android:src="@drawable/topbannerbar" />
-        </android.support.v7.widget.Toolbar>
 
         <ImageView
             android:id="@+id/imageView"
